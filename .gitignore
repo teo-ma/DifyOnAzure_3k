@@ -1,5 +1,4 @@
 # Ignore Terraform directories
 .terraform/
-
-# Ignore node_modules directories
-node_modules/
+terraform.tfstate/
+terraform.tfstate.backup/
