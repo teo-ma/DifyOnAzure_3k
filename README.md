@@ -150,3 +150,12 @@ terraform apply "dev-plan"
 ![dify-logon](./images/dify-logon.png)
 - 登陆后可以开始使用Dify了！
 ![dify-ui](./images/dify-ui.png)
+
+# 内容总结
+
+- 本指南详细介绍了如何在 Azure 上使用 Terraform 部署 Dify，包括前提条件、环境准备、服务主体创建、变量配置、部署命令及后续操作。
+- 部署过程中需重点关注 dev-variables.tfvars 文件的变量填写，确保服务主体信息和资源命名唯一。
+- 部署完成后可通过 Azure 门户获取 AKS 集群的公网地址，访问 Dify 平台。
+- 如遇到问题，可根据本指南逐步排查，或参考相关 Azure/Terraform 官方文档。
+
+通过本指南，您可以高效地在 Azure 云环境中完成 Dify 的自动化部署与初步体验。
