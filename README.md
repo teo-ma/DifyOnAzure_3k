@@ -153,9 +153,12 @@ terraform apply "dev-plan"
 
 # 内容总结
 
-- 本指南详细介绍了如何在 Azure 上使用 Terraform 部署 Dify，包括前提条件、环境准备、服务主体创建、变量配置、部署命令及后续操作。
-- 部署过程中需重点关注 dev-variables.tfvars 文件的变量填写，确保服务主体信息和资源命名唯一。
-- 部署完成后可通过 Azure 门户获取 AKS 集群的公网地址，访问 Dify 平台。
-- 如遇到问题，可根据本指南逐步排查，或参考相关 Azure/Terraform 官方文档。
+- **项目概述**：本文档介绍了 Dify 平台在 Azure 上的部署方案，该方案利用了多个 Azure 服务，包括 Azure AI Search、Azure Database for PostgreSQL、Azure Cache for Redis 和 Azure Kubernetes Service 等。
+- **系统架构**：提供了详细的系统拓扑图，展示了各组件间的关系和数据流。
+- **部署指南**：详细介绍了如何在 Azure 上使用 Terraform 部署 Dify，包括前提条件、环境准备、服务主体创建、变量配置、部署命令及后续操作。
+- **关键步骤**：包括 Terraform 和 Azure CLI 的安装配置，服务主体的创建，dev-variables.tfvars 文件的变量填写（确保服务主体信息和资源命名唯一），以及执行 Terraform 命令部署资源。
+- **平台访问**：部署完成后可通过 Azure 门户获取 AKS 集群的公网地址，访问并配置 Dify 平台。
+- **注意事项**：文档特别提醒了在不同操作系统下使用 Terraform 时需要注意的路径配置问题。
+- **故障排查**：如遇到问题，可根据本指南逐步排查，或参考相关 Azure/Terraform 官方文档。
 
-通过本指南，您可以高效地在 Azure 云环境中完成 Dify 的自动化部署与初步体验。
+通过本指南，您可以高效地在 Azure 云环境中完成 Dify 的自动化部署与初步体验，快速搭建自己的 AI 应用开发平台。
