@@ -2,6 +2,21 @@
 ## Overview
 - 这是一个如何在 Azure 上部署 Dify 项目的简单示例。使用了Azure 多个AI，Data及AppDev的服务，如Azure AI Search，Azure Database for PostgreSQL,Azure Cache for Redis,Azure Kubernetes Service等。
 - 部署之前也可以体验一下这个部署好的例子体验一下：http://dify-gpschina.eastus2.cloudapp.azure.com/ 登陆用户名/密码(无编辑权限)：dify2@gmail.com/dify1234
+
+## 什么是Dify
+
+Dify是一个开源的大型语言模型（LLM）应用开发平台，旨在简化AI应用的创建、部署和运营过程。作为一个强大的LLMOps平台，Dify提供了从原型设计到生产部署的全栈解决方案。
+
+Dify的核心特点包括：
+- 统一的界面：提供直观的Web界面，用于构建AI应用，无需深厚的技术背景
+- 提示词工程：内置先进的提示词管理和优化工具，帮助开发者创建高质量的AI交互
+- 多模型支持：兼容多种大型语言模型，包括各类商业和开源模型
+- 向量数据库集成：支持多种向量数据库，实现高效的知识管理和检索
+- 插件生态系统：提供丰富的插件以扩展功能，满足不同场景需求
+- 部署灵活性：支持云端或私有部署方式，适应不同的安全和合规要求
+
+Dify平台允许开发者通过API或SDK方式集成AI能力到各类应用中，同时提供完整的应用生命周期管理，包括版本控制、日志分析和性能监控等。通过Dify，开发者可以专注于业务逻辑和用户体验，而不必深入处理底层AI模型的复杂性。
+
 ## Topology
 ![Topology](./images/image.png)
 
